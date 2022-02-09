@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  
+  
 }
 
 .App-logo {
@@ -25,7 +27,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #3f37c9;
 }
 
 @keyframes App-logo-spin {
@@ -37,8 +39,120 @@
   }
 }
 
+/* Colors: */
+.orange{
+  color: #fc7a1e;
+}
+.orange2{
+  color: #f24c00;
+}
+.blue{
+  color: #485696;
+}
+.blue2{
+  color: #3f37c9;
+}
+.bg-orange{
+  background-color: #f24c00;
+}
+.bg-blue2{
+  background-color: #4617c7;
+}
+.bg-blue1{
+  background-color: #5479F8;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  
 }
+a{
+  color: black; 
+}
+a:hover{
+  color: #5479F8;
+  font-weight: 700;
+  }
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 5rem;
+  }
+.title{
+  font-family: 'Lato', sans-serif;
+  font-size: 5rem;
+}
+.smtitle{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+}
+.ptext{
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  
+}
+.button {
+  padding: 9px 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+.border-color{
+  border-color: #f24c00;
+}
+.menu{
+  display: flex; 
+}
+.submenu{
+  font-weight: 700;
+}
+.submenu:hover{
+  color: #5479F8;
+  font-weight: 700;
+}
+.navbar-item{
+  display:inline;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 10px;
+  justify-content: flex-end;
+}
+.logo{
+  color: black;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  /* display:inline;
+  padding: 7.5px 10px 7.5px 0; */
+  justify-content: flex-start;
+}
+
+/* .buttonQ:hover {
+  color: #f24c00;
+  background-color: white;
+  border-color: #f24c00;
+  border: 1px solid;
+} */
+.buttonQ:hover {
+  background-color: #5479F8;
+}
+.category:hover{
+  background-color: #415db9;
+}
+.selectedcategory{
+  background-color: white;
+  color: #f24c00;
+}
+
+
+/* .labutton{
+  color: white;
+  padding: 7.5px 10px 7.5px 0;
+  background-color: #f24c00;
+} */
